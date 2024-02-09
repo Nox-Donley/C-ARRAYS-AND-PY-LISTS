@@ -1,0 +1,10 @@
+NoxFavSongs = ["Ghost by Nelward", "CLUB SANDWICH by Joey Valence and Brae", "HAUNTED HOUSE by SNAKE POOL", "CHATTERING LACK OF COMMON SENSE by Ghost and Pals"]
+NoxFavSongs.append("bedroom community by glass beach")
+NoxFavSongs.remove("CLUB SANDWICH by Joey Valence and Brae")
+print(len(NoxFavSongs))
+for i in range(0,3):
+    if NoxFavSongs[i] == "Watermelon Sugar by Harry Styles":
+        print("True")
+    else:
+        print("False")
+print(NoxFavSongs)
